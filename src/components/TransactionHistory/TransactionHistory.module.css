@@ -3,6 +3,7 @@
   margin: auto 0px;
   border-collapse: collapse;
   text-transform: capitalize;
+  margin: 0 auto;
 }
 
 .table thead {
