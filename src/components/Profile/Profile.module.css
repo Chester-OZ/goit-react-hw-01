@@ -1,0 +1,62 @@
+.userCard {
+  margin: 0 auto;
+  width: 320px;
+  border-radius: 12px;
+  border: 2px solid black;
+  background-color: #fafafa;
+  margin-bottom: 20px;
+}
+
+.user {
+  padding: 20px;
+  color: #808080;
+}
+
+.image {
+  margin: 0 auto;
+  background-color: #2a2a2a;
+  max-width: 100px;
+  border-radius: 50px;
+}
+
+.name {
+  margin-top: 10px;
+  font-size: 24px;
+  font-weight: 500;
+  color: #000000;
+}
+
+.tag {
+  color: #808080;
+  margin-top: 10px;
+  font-size: 18px;
+}
+
+.location {
+  margin-top: 5px;
+  font-size: 20px;
+}
+
+.userStats {
+  color: black;
+  display: flex;
+  background-color: #d3d3d3;
+  border-bottom-left-radius: 12px;
+  border-bottom-right-radius: 12px;
+}
+
+.item {
+  width: 100%;
+  padding: 5px;
+  display: flex;
+  flex-direction: column;
+  border-top: 1.5px solid #808080;
+}
+
+.item:not(:last-child) {
+  border-right: 1.5px solid #808080;
+}
+
+.statsValue {
+  font-weight: 500;
+}
